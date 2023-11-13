@@ -1,0 +1,487 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/*------------reset code----------*/
+
+/*body{
+    height: 1000px;
+}
+
+#container{
+    display: grid;
+    grid-template-columns: 300px 200px 500px;
+    grid-template-rows: 200px 200px;
+    gap: 16px;
+}*/
+
+#black{
+    width: 100%;
+    height: 40px;
+    min-width: 1700px;
+    background-color: black;
+    color: white;
+    text-align: center;
+    line-height: 40px;
+    font-size: 12px;
+}
+
+#black > span{
+    color: yellow;
+    font-size: 12px;
+}
+
+#black > a{
+    color: white;
+}
+
+#white{
+    width: 100%;
+    height: 70px;
+    min-width: 1700px;
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+
+#white > div:nth-child(2){
+    width: 163px;
+    height: 31px;
+    background-image: url("https://champitr6563.cdn-nhncommerce.com/data/images/header/header_logo.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    margin: 0 auto;
+}
+
+#white > div:last-child > ul{
+    display: flex;
+    gap: 32px;
+    position: absolute;
+    right: 20px;
+    top: 23px;
+    align-items: center;
+}
+
+#white > div:last-child > ul > li{
+    font-size: 13px;
+    color: #000;
+    white-space: nowrap;
+}
+
+#white4{
+    width: 24px;
+    height: 24px;
+    background-image: url("https://champitr6563.cdn-nhncommerce.com/data/skin/front/desktop/img/mimg/top_search_w.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+#white5{
+    width: 24px;
+    height: 18px;
+    background-image: url("https://champitr6563.cdn-nhncommerce.com/data/skin/front/desktop/img/mimg/top_cart_w.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+#navy{
+    width: 100%;
+    height: 70px;
+    min-width: 1700px;
+    background-color: #131635;
+    line-height: 70px;
+    color: white;
+    font-size: 15px;
+    font-weight: bold;
+    position: relative;
+    white-space: nowrap;
+}
+
+#navy > ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 48px;
+}
+
+#navy > ul > li:last-child {
+    display: flex;
+    align-items: center;
+}
+
+#navy > ul > li:last-child{
+    position: absolute;
+    right: 40px;
+}
+
+#navy > ul > li:last-child > div:first-child{
+    width: 16px;
+    height: 16px;
+    background-color: red;
+    border-radius: 2px;
+    color: white;
+    line-height: 16px;
+    text-align: center;
+    margin: 30px 20px;
+}
+
+main > div{
+    margin: 0 auto;
+}
+
+#main1{
+    width: 1902.5px;
+    height: 700px;
+    min-width: 1700px;
+    background-image: url("https://bbootxbranctory.diskn.com/champion/img/event2/231010_beastie_boys/pc/pc_01.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0 auto;
+}
+
+h1{
+    font-size: 25px;
+    font-weight: bold;
+    padding: 30px 0;
+    box-sizing: border-box;
+    text-align: center;
+    letter-spacing: 2px;
+    margin: 30px 0;
+}
+
+#mainmain1 > ul{
+    display: flex;
+    font-size: 16px;
+    font-weight: 700;
+    align-items: center;
+    justify-content: center;
+    gap: 64px;
+    margin-bottom: 30px;
+}
+
+#mainmain1 > ul > li:not(:first-child){
+    color: #b4b4b4;
+}
+
+#container1{
+    display: grid;
+    justify-content: center;
+    grid-template-columns: 260px 260px 260px 260px 260px 260px;
+    grid-template-rows: 330px 80px;
+    column-gap: 32px;
+    row-gap: 16px;
+}
+
+#container1 > div:first-child{
+    background-image: url("https://champitr6563.cdn-nhncommerce.com/data/goods/23/08/34/1000010136/register_main_026.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#container1 > div:nth-child(2){
+    background-image: url("https://champitr6563.cdn-nhncommerce.com/data/goods/23/09/37/1000010330/1000010330_main_075.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#container1 > div:nth-child(3){
+    background-image: url("https://champitr6563.cdn-nhncommerce.com/data/goods/23/09/38/1000010422/register_main_051.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#container1 > div:nth-child(4){
+    background-image: url("https://champitr6563.cdn-nhncommerce.com/data/goods/23/08/34/1000010131/1000010131_main_014.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#container1 > div:nth-child(5){
+    background-image: url("https://champitr6563.cdn-nhncommerce.com/data/goods/23/09/37/1000010333/1000010333_main_096.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#container1 > div:nth-child(6){
+    background-image: url("https://champitr6563.cdn-nhncommerce.com/data/goods/23/09/38/1000010410/register_main_092.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.container1-1{
+    font-family: "Noto Sans KR";
+    padding: 5px 10px;
+    letter-spacing: 1px;
+}
+
+h2{
+    font-size: 13px;
+    line-height: 20px;
+}
+
+#container1 > div > p{
+    font-size: 15px;
+    box-sizing: border-box;
+}
+
+#container1 > div > p > span{
+    font-size: 17px;
+    color: red;
+    font-weight: bold;
+    box-sizing: border-box;
+}
+
+#container1 > div > p > del{
+    font-size: 14px;
+    color: #999;
+}
+
+#mainmain2{
+    display: flex;
+    justify-content: center;
+}
+
+#main2{
+    width: 544px;
+    height: 850px;
+    background-image: url("https://champitr6563.cdn-nhncommerce.com/data/skin/front/desktop/img/banner/slider_511517418/7852deb5039be7bd27796c47a4ed88fc_49977.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 30px 20px;
+}
+
+#container2{
+    display: grid;
+    grid-template-columns: 260px 260px 260px 260px;
+    grid-template-rows: 330px 80px 330px 80px;
+    column-gap: 32px;
+    row-gap: 16px;
+    margin: 30px 0;
+}
+/*
+#container2 > div{
+    background-color: antiquewhite;
+}
+*/
+
+#container2 > div:first-child{
+    background-image: url("https://champitr6563.cdn-nhncommerce.com/data/goods/23/10/43/1000010519/register_main_014.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#container2 > div:nth-child(2){
+    background-image: url("https://champitr6563.cdn-nhncommerce.com/data/goods/23/10/42/1000010509/register_main_035.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#container2 > div:nth-child(3){
+    background-image: url("https://champitr6563.cdn-nhncommerce.com/data/goods/23/09/38/1000010424/register_main_016.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#container2 > div:nth-child(4){
+    background-image: url("https://champitr6563.cdn-nhncommerce.com/data/goods/23/10/43/1000010518/register_main_09.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#container2 > div:nth-child(9){
+    background-image: url("https://champitr6563.cdn-nhncommerce.com/data/goods/23/10/40/1000010473/register_main_019.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#container2 > div:nth-child(10){
+    background-image: url("https://champitr6563.cdn-nhncommerce.com/data/goods/23/09/36/1000010240/1000010240_main_056.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#container2 > div:nth-child(11){
+    background-image: url("https://champitr6563.cdn-nhncommerce.com/data/goods/23/09/36/1000010231/1000010231_main_096.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#container2 > div:nth-child(12){
+    background-image: url("https://champitr6563.cdn-nhncommerce.com/data/goods/23/08/34/1000010128/1000010128_main_061.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.container2-1{
+    font-family: "Noto Sans KR";
+    padding: 5px 10px;
+    letter-spacing: 2px;
+}
+
+h3{
+    font-size: 13px;
+    line-height: 20px;
+}
+
+#container2 > div > p{
+    font-size: 15px;
+    box-sizing: border-box;
+    word-spacing: 1px;
+}
+
+#container2 > div > p > span{
+    font-size: 17px;
+    color: red;
+    font-weight: bold;
+    box-sizing: border-box;
+}
+
+#container2 > div > p > del{
+    font-size: 14px;
+    color: #999;
+}
+
+footer{
+    width: 100%;
+    height: 270px;
+    min-width: 1700px;
+    padding: 30px;
+    box-sizing: border-box;
+    background-color: #282828;
+    letter-spacing: 3px;
+    display: flex;
+    justify-content: space-between;
+    line-height: 20px;
+}
+
+footer > div{
+    margin: 30px 10px;
+}
+
+#end1 > ul{
+    display: flex;
+    gap: 16px;
+    color: white;
+    font-size: 14px;
+    margin-bottom: 20px;
+}
+
+#end2{
+    color: #9a9a9a;
+    font-size: 13px;
+    line-height: 18px;
+    margin-bottom: 20px;
+}
+
+#end3 > ul{
+    display: flex;
+    color: white;
+    gap: 24px;
+    font-size: 13px;
+}
+
+#end3 > ul > li:last-child{
+    background-color: black;
+}
+
+#end4{
+    color: aliceblue;
+    text-align: right;
+    line-height: 20px;
+    font-size: 15px;
+    font-family: "Noto Sans KR";
+}
+
+#end4 > div:first-child{
+    display: flex;
+    justify-content: flex-end;
+    gap: 16px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+
+#end4 > div:first-child > div:first-child{
+    width: 30px;
+    height: 30px;
+    background-image: url("https://champitr6563.cdn-nhncommerce.com/data/images/footer/facebook.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#end4 > div:first-child > div:nth-child(2){
+    width: 30px;
+    height: 30px;
+    background-image: url("https://champitr6563.cdn-nhncommerce.com/data/images/footer/instagram.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#end4 > div:first-child > div:nth-child(3){
+    width: 30px;
+    height: 30px;
+    background-image: url("https://champitr6563.cdn-nhncommerce.com/data/images/footer/youtube.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
